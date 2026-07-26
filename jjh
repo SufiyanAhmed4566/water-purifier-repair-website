@@ -1,49 +1,45 @@
-Okay. So from the above code, first understand the code, what I have written and what it is about. So, based on the file structure which I have given to you, I want you make certain changes to it. The first task is in the header. So, in the header, you need to insert a image which is Which is known as logo title, and the dimensions are width, width. Okay, in the header, first will come the logo image, then there will be a submit button, and then there will be a menu button. So the logo image is transparent. Only the logo and width title is availableLogo title width px 823 
+So the code which you have given, it is really good. I'm also receiving the mails to the email ID using the Apps Scripts so dont do anyting for that . So, I want you to do some fixes in the existing code which is given by you. So the first task is to make the logo title image PNG more larger in the header section. Like, both the height and width of the image should be bigger. The image, the logo title PNG should look more big. After the logo title PNG, on the right side of it, there should be a button. Button like "Book Now". And right side of the "Book Now" button, there should be Menu button. So between the logo title and Menu, center there should be a Book Now button with some animation, with some coloring going on, like attractive. It should be attractive. The second problem is, in the hero section, you have mentioned "Call Now" with the number. But there is no logo beside that. I want you to remove the number. Like which you have mentioned, 95, 98, 95-7, all those things. I want you to only keep the "Call Now" and "Book Service on WhatsApp" with logos, with some unique logos. Not like some random logos, random emojis, and it would look like AI generated. Not like that.
 
-Height px 918 
+And the mobile bottom buttons, buttons which are sticky like the WhatsApp and the call buttons. I want you to also make it very attractive and add a emoji for both of that. Like a unique emoji specifically for that website. Not any random emoji and it will look like AI. So, I want you to make it with the animation and effect because it is the most important buttons which we have. So, it should look like changing colors or sparkle or animation. The user should get attracted there.
 
-Position x 213 
+<div class="phone" role="img" aria-label="Floating smartphone mockup showing water purifier repair booking interface"> 
 
-Position y 143 
+            <div class="phone-screen"> 
 
-Logo 
+              <div class="app-content"> 
 
-Width px 1974
+                <p class="app-title">Book Water Purifier Service</p> 
 
-Height 562
+                <div class="app-card"><span class="field">Service Type</span><div class="field-value">RO Filter Replacement <span>⌄</span></div></div> 
 
-Position x 102 
+                <div class="app-card"><span class="field">Location</span><div class="field-value">Bangalore, Karnataka</div></div> 
 
-Position y 90 . So adjust it according to that, for mobile as well as for desktop screen. Coming to the second task, the existing code have lot of stuck problems. Whenever I try to scroll up and down, it's getting stuck. So also take care of that. And the third problem is in the mobile screen, on the right side of the screen, there is some empty space or margin or padding left in the whole page. So content is, on the contents of the right side, there is a blank line in the whole page, margin or padding, and it is empty. It is of one, 0.3 cm something, and it will blank. So also take care of that.Okay, so the next task is, you need to make the SEO section more good. You need to add side images which appear in the Google search below the title and the left side of the description. I will give you five images. You need to add all those in the head section, the side images. So it should look very good in the search results. That is the third task. The fourth task is, whatever blocks you are using, like the cards on the page, that should be in one line, two cards I should get. Currently, in mobile interface, I am getting one card, and the next card is after that. So what I want is, in one line, I need two cards in mobile with the same content. The fifth task is, the images, the symbols which you have used inside the cards to display, that is looking like very much AI generated. It's not looking based on the theme. The symbols which you have used inside the cards, it's just looking like the website is created using AI. I don't want that. I need premium, customized symbols for my website. So also handle that. Okay, so the next one is, you need to create a form. Like within the same page, you need to create a booking form, like with the name, with the phone number, and the issue, what issue it is going on, and the brand, which type of brand it is, and submit button. And it should be really, really, really good. It should be based on the theme. And after clicking on the submit, a success form, success message should appear. Okay? include this phone number in the webiste ater purifier number 9591895588 even for whatnsapp same and 
+                <div class="app-card"><span class="field">Technician Assigned</span><div class="field-value">Expert arriving soon <span class="status-chip">Live</span></div></div> 
 
-Create the form for a Water Purifier service website. 
+                <div class="drop-3d" aria-hidden="true"> 
 
- 
+                  <svg viewBox="0 0 48 48" width="66" height="66"><path d="M24 4C24 4 8 24.5 8 33a16 16 0 0 0 32 0C40 24.5 24 4 24 4Z" fill="#00B7E8" stroke="#0057B8" stroke-width="2"></path><ellipse cx="19" cy="30" rx="4" ry="6" fill="#fff" opacity=".55"></ellipse></svg> 
 
-The form must have exactly these 4 fields: 
+                </div> 
 
- 
+                <div class="icon-row" aria-hidden="true"> 
 
-* name 
+                  <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 5 11 5 15.5A7 7 0 0 0 19 15.5C19 11 12 2 12 2Z" stroke="#0057B8" stroke-width="1.6"></path></svg></div> 
 
-* phone 
+                  <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3.2" stroke="#0057B8" stroke-width="1.6"></circle><path d="M12 3v2.4M12 18.6V21M21 12h-2.4M5.4 12H3M18.1 5.9l-1.7 1.7M7.6 16.4l-1.7 1.7M18.1 18.1l-1.7-1.7M7.6 7.6 5.9 5.9" stroke="#0057B8" stroke-width="1.6" stroke-linecap="round"></path></svg></div> 
 
-* issue 
+                  <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M9 3h6M10 3v5.5L5.7 16a2 2 0 0 0 1.7 3h9.2a2 2 0 0 0 1.7-3L14 8.5V3" stroke="#0057B8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div> 
 
-* brand 
+                </div> 
 
- this app script link https://script.google.com/macros/s/AKfycbxKq6xzVmYvz9w5ARD77PCN64DB0UA2LYxk2UBXVapwjwVTjlYhHsNgxKLDA1l1_yM-/exec
+              </div> 
 
-Important: 
+            </div> 
 
- 
+          </div> And this mobile floating effect which you have provided you, it is not at all good. The one which I have provided in the first code, put that one only. Because this, the, this you have provided is not good and it is going on the top, like it is hiding when it is floating on the top. So, replace with the code which I have first provided you for the mobile floating animation. And make it more improvement if you can. 
 
-* Do not use any other field names.  
+And the cards in the whole page, that is very small, but some of the cards in some sections, they are looking odd numbers. It's not like 10, 8, or 9. So, just, one card is there in one line, but on the right side, there is no card. So it is missing, so it's not looking good. So, I want you to make even cards for each section. There shouldn't be like odd number of cards. There should be 10, 8, or 6, not odd number of cards, because on the left side, the right side, it will look missing. And the other thing I want you to improve is the card's length. It is vertically too much length. It have vertical too much length. So I want you to make it vertically a little bit short, like square type. It should look good. So I want you to do that change.
 
-* Make the form clean, modern, and suitable for a Water Purifier service business. 
+And the brand cards which you have created, it have like a liquid logo and the brand name. So it's not looking good. And the liquid logo is first and below that is the brand name. So it's not looking good. And the logo, and the brand name, so it's not looking perfect. Suggest some improvement in that. and mention the price details remove it from the card.price sections the okay and even the customer reviews cards in odd i need even number 
 
-* The field names in the form must match the Apps Script exactly so the data can be sent correctly. 
-
- 
-
-  and put the issues top which can be there and for brand mention the top brand and also mention others options in the both field okay and this is structure of the webiste 📦water-purifier-repair-website  ┣ 📂images  ┃ ┣ 📂sideimages  ┃ ┃ ┣ 📜sideimages (1).png  ┃ ┃ ┣ 📜sideimages (2).png  ┃ ┃ ┣ 📜sideimages (3).png  ┃ ┃ ┗ 📜sideimages (4).png  ┃ ┣ 📜logo.png  ┃ ┗ 📜Logo_title.png  ┣ 📜index.html  ┣ 📜jjh (ignore this file )  ┗ 📜README.md and everthing do it perfectly okay 
+And in the contact section, which is there in the last, there are two parts there inside that. First is the contact part. The contact part is going out of the screen from the right side, as well as the booking part is also going to the right side, like the form. It is crossing the screen from the right side, both of the parts. In the contact section, the contact part, the phone, WhatsApp, email, those white color section, white color box, is crossing the right side, like it is going inside a screen. So, also the booking part, it is going inside a screen from the left side. There is no space, like it is going inside a screen only from the right, both of these things. So, also resolve that. And remove this Google Map-enabled place, should replace this block. So, remove that part. I don't need that. And what I want you to do is, the most important part is, I want you to keep the booking section somewhere in between, because it is the most important thing in the whole page, not in the last, in the contact place. I want you to keep the booking form somewhere in between of the page. And I want you to especially focus on the design. The design should be like really good, should be very interesting. Like, also add for each fields, add it is compulsory with the star you add. And until it is empty, you can't book the form. So, add star for each field. And as soon as the user submits on the phone, on the button, immediately there should be a message. There should be no loading. As soon as he clicks the button, show an immediate message with a beautiful animation. And don't mention any phone number. Just tell that, thank you for booking the form or the repair, and our executive will call you in five minutes. Something like that you keep. And it should be in center of the page. So, remember everything which I told you. Especially focus on the form style and layout. It should be very good, amazing. Understood, right? And the emojis you have used in the contact, please change that. It is looking like AI generated. Create our own emojis based on the theme and the color.
