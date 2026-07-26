@@ -20,6 +20,9 @@
   <meta property="og:image" content="images/sideimages/sideimages (3).png" />
   <meta property="og:image" content="images/sideimages/sideimages (4).png" />
   <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Water Purifier Repair Experts" />
+  <meta name="geo.region" content="IN-KA" />
+  <meta name="geo.placename" content="Bangalore" />
   <link rel="image_src" href="images/sideimages/sideimages (1).png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Water Purifier Repair Experts in Bangalore" />
@@ -104,6 +107,14 @@
           {"@type":"ListItem","position":1,"name":"Home","item":"https://waterpurifierrepairexperts.in/"},
           {"@type":"ListItem","position":2,"name":"Water Purifier Repair Bangalore","item":"https://waterpurifierrepairexperts.in/#home"}
         ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://waterpurifierrepairexperts.in/#website",
+        "url": "https://waterpurifierrepairexperts.in/",
+        "name": "Water Purifier Repair Experts",
+        "inLanguage": "en-IN",
+        "publisher": {"@id":"https://waterpurifierrepairexperts.in/#localbusiness"}
       }
     ]
   }
@@ -147,15 +158,15 @@
     .header-actions{display:flex;align-items:center;gap:14px}
     .desktop-actions{display:flex;align-items:center;gap:10px}
 
-    .header-book-btn{position:relative;display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:999px;font-weight:900;color:#fff;letter-spacing:.01em;background:linear-gradient(120deg,var(--navy),var(--aqua),var(--green),var(--navy));background-size:300% 100%;animation:btnGradient 5s ease infinite;box-shadow:0 12px 30px rgba(0,183,232,.35),0 0 0 0 rgba(76,175,80,.5);overflow:hidden;isolation:isolate;transition:transform .25s ease}
-    .header-book-btn:hover{transform:translateY(-2px) scale(1.03)}
+    .header-book-btn{position:relative;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:0;padding:9px 22px;border-radius:20px;font-weight:900;color:#fff;letter-spacing:.01em;background:linear-gradient(120deg,var(--navy),var(--aqua),var(--green),var(--navy));background-size:300% 100%;box-shadow:0 12px 30px rgba(0,183,232,.35);overflow:hidden;isolation:isolate;transition:transform .25s ease;line-height:1.15;text-align:center}
+    .header-book-btn:hover{transform:translateY(-2px) scale(1.04)}
     .header-book-btn:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,rgba(255,255,255,.55),transparent);transform:translateX(-120%);animation:btnSheen 2.6s ease-in-out infinite;z-index:1}
-    .header-book-btn span{position:relative;z-index:2;display:inline-flex;align-items:center;gap:8px}
-    .header-book-btn svg{width:18px;height:18px;position:relative;z-index:2}
+    .header-book-btn span{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center}
+    .header-book-btn .b-top{font-size:.98rem;font-weight:950}
+    .header-book-btn .b-bottom{font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.92}
     @keyframes btnGradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
     @keyframes btnSheen{0%{transform:translateX(-130%)}55%{transform:translateX(130%)}100%{transform:translateX(130%)}}
-    @keyframes pulseRing{0%{box-shadow:0 12px 30px rgba(0,183,232,.35),0 0 0 0 rgba(76,175,80,.45)}70%{box-shadow:0 12px 30px rgba(0,183,232,.35),0 0 0 14px rgba(76,175,80,0)}100%{box-shadow:0 12px 30px rgba(0,183,232,.35),0 0 0 0 rgba(76,175,80,0)}}
-    .header-book-btn{animation:btnGradient 5s ease infinite,pulseRing 2.6s ease-in-out infinite}
+    .header-book-btn{animation:btnGradient 6s ease infinite}
 
     .menu-toggle{display:none;width:46px;height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,var(--navy),var(--aqua));color:#fff;cursor:pointer;box-shadow:0 10px 22px rgba(0,87,184,.22);flex-shrink:0}.menu-toggle span{display:block;width:20px;height:2px;background:#fff;margin:5px auto;border-radius:9px;transition:.3s}.menu-toggle.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}.menu-toggle.active span:nth-child(2){opacity:0}.menu-toggle.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:13px 20px;border-radius:999px;border:1px solid transparent;font-weight:800;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;white-space:nowrap}.btn-primary{background:linear-gradient(135deg,var(--green),#22c55e);color:#fff;box-shadow:0 16px 34px rgba(76,175,80,.28)}.btn-primary:hover{transform:translateY(-3px);box-shadow:0 22px 40px rgba(76,175,80,.34)}.btn-secondary{background:#fff;color:var(--navy);box-shadow:0 12px 28px rgba(0,87,184,.12);border-color:rgba(0,87,184,.12)}.btn-secondary:hover{transform:translateY(-3px);border-color:rgba(0,183,232,.38)}.btn-ghost{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.36);color:#fff}.btn-ghost:hover{background:rgba(255,255,255,.24);transform:translateY(-3px)}
@@ -168,15 +179,15 @@
     .hero:before{content:"";position:absolute;left:0;right:0;bottom:-135px;height:250px;width:100%;background:rgba(255,255,255,.98);clip-path:ellipse(58% 38% at 50% 62%)}
     .hero .container{position:relative;z-index:2}.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:54px}.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:9px 13px;border:1px solid rgba(255,255,255,.34);border-radius:999px;background:rgba(255,255,255,.12);font-weight:800;font-size:.86rem;margin-bottom:22px}.eyebrow .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 8px rgba(76,175,80,.18)}h1{font-size:clamp(2.55rem,6vw,5.4rem);line-height:.97;letter-spacing:-.075em;max-width:760px;margin-bottom:24px}.hero-copy{font-size:clamp(1rem,1.4vw,1.22rem);color:rgba(255,255,255,.9);max-width:710px;margin-bottom:31px}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px}.trust-row{display:flex;flex-wrap:wrap;gap:12px}.trust-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:9px 13px;color:rgba(255,255,255,.95);font-weight:750;font-size:.9rem}.trust-pill i{font-style:normal;color:#b8ffcb}
 
-    .phone-scene{position:relative;min-height:640px;display:grid;place-items:center}.glow-orb{position:absolute;width:430px;height:430px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.42),rgba(0,183,232,.10) 44%,transparent 68%);filter:blur(4px);animation:pulse 5s ease-in-out infinite;will-change:transform}.phone{position:relative;width:min(360px,78vw);min-height:650px;border-radius:44px;background:linear-gradient(165deg,rgba(255,255,255,.92),rgba(245,251,255,.76));border:1px solid rgba(255,255,255,.62);box-shadow:0 48px 100px rgba(0,22,65,.42),inset 0 0 0 9px rgba(0,27,77,.08);padding:18px;animation:floatPhone 6s ease-in-out infinite;will-change:transform}.phone:before{content:"";position:absolute;top:11px;left:50%;transform:translateX(-50%);width:118px;height:18px;border-radius:0 0 16px 16px;background:#102d57;opacity:.9}.phone-screen{position:relative;min-height:612px;border-radius:33px;padding:30px 22px;overflow:hidden;background:linear-gradient(180deg,#f9fdff,#e8f9ff)}.app-content{position:relative;z-index:2}.app-title{font-size:1.22rem;font-weight:900;color:var(--navy);line-height:1.15;margin-bottom:16px}.app-card{background:rgba(255,255,255,.78);border:1px solid rgba(0,87,184,.10);border-radius:22px;padding:14px;box-shadow:0 14px 34px rgba(0,87,184,.12);margin-bottom:12px}.field{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:#7d91a8;font-weight:900}.field-value{display:flex;align-items:center;justify-content:space-between;margin-top:4px;font-size:.96rem;font-weight:850;color:#19385f}.status-chip{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;background:rgba(76,175,80,.12);color:#1d7c35;border-radius:999px;padding:6px 9px;font-weight:900}.status-chip:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
-    .drop-3d{width:112px;height:112px;margin:22px auto 18px;display:grid;place-items:center}
-    .icon-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mini-icon{height:78px;border-radius:18px;background:linear-gradient(145deg,#fff,#e9faff);box-shadow:0 10px 22px rgba(0,87,184,.10);display:grid;place-items:center;animation:bob 3s ease-in-out infinite;will-change:transform}.mini-icon:nth-child(2){animation-delay:.4s}.mini-icon:nth-child(3){animation-delay:.8s}.mini-icon svg{width:30px;height:30px}
+    .phone-scene{position:relative;min-height:520px;display:grid;place-items:center}.glow-orb{position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.42),rgba(0,183,232,.10) 44%,transparent 68%);filter:blur(4px);animation:pulse 5s ease-in-out infinite;will-change:transform}.phone{position:relative;width:min(340px,78vw);min-height:490px;border-radius:40px;background:linear-gradient(165deg,rgba(255,255,255,.92),rgba(245,251,255,.76));border:1px solid rgba(255,255,255,.62);box-shadow:0 40px 90px rgba(0,22,65,.4),inset 0 0 0 8px rgba(0,27,77,.08);padding:16px;animation:floatPhone 6s ease-in-out infinite;will-change:transform}.phone:before{content:"";position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:16px;border-radius:0 0 14px 14px;background:#102d57;opacity:.9}.phone-screen{position:relative;min-height:458px;border-radius:29px;padding:26px 20px;overflow:hidden;background:linear-gradient(180deg,#f9fdff,#e8f9ff)}.app-content{position:relative;z-index:2}.app-title{font-size:1.1rem;font-weight:900;color:var(--navy);line-height:1.15;margin-bottom:14px}.app-card{background:rgba(255,255,255,.78);border:1px solid rgba(0,87,184,.10);border-radius:20px;padding:12px;box-shadow:0 12px 28px rgba(0,87,184,.12);margin-bottom:10px}.field{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:#7d91a8;font-weight:900}.field-value{display:flex;align-items:center;justify-content:space-between;margin-top:4px;font-size:.92rem;font-weight:850;color:#19385f}.status-chip{display:inline-flex;align-items:center;gap:6px;font-size:.72rem;background:rgba(76,175,80,.12);color:#1d7c35;border-radius:999px;padding:5px 8px;font-weight:900}.status-chip:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+    .drop-3d{width:84px;height:88px;margin:14px auto 12px;display:grid;place-items:center}
+    .icon-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.mini-icon{height:60px;border-radius:16px;background:linear-gradient(145deg,#fff,#e9faff);box-shadow:0 8px 18px rgba(0,87,184,.10);display:grid;place-items:center;animation:bob 3s ease-in-out infinite;will-change:transform}.mini-icon:nth-child(2){animation-delay:.4s}.mini-icon:nth-child(3){animation-delay:.8s}.mini-icon svg{width:24px;height:24px}
     .floating-tool{position:absolute;right:2%;top:16%;width:98px;height:98px;border-radius:28px;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.38);backdrop-filter:blur(10px);box-shadow:0 18px 45px rgba(0,34,88,.22);display:grid;place-items:center;animation:wrench 4s ease-in-out infinite;will-change:transform;z-index:5}
     .floating-purifier{position:absolute;left:0%;bottom:10%;width:118px;border-radius:28px;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.38);backdrop-filter:blur(10px);padding:14px;text-align:center;box-shadow:0 18px 45px rgba(0,34,88,.22);animation:floatCard 5s ease-in-out infinite;will-change:transform;z-index:5}
     .purifier-device{height:86px;border-radius:20px;background:linear-gradient(180deg,#fff,#d9f7ff);position:relative}.purifier-device:before{content:"";position:absolute;width:44px;height:10px;background:var(--aqua);border-radius:999px;left:50%;top:22px;transform:translateX(-50%)}.purifier-device:after{content:"";position:absolute;width:22px;height:22px;border:4px solid var(--navy);border-radius:50%;left:50%;bottom:17px;transform:translateX(-50%)}
 
     section{position:relative;padding:94px 0}.section-head{text-align:center;margin:0 auto 46px;max-width:820px}.tag{display:inline-flex;align-items:center;gap:9px;background:rgba(0,183,232,.10);border:1px solid rgba(0,183,232,.22);color:var(--navy);padding:8px 12px;border-radius:999px;font-weight:900;font-size:.82rem;margin-bottom:14px}.tag:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--aqua)}h2{font-size:clamp(2rem,4vw,3.65rem);line-height:1.04;letter-spacing:-.055em;color:#0d2a52;margin-bottom:16px}.section-head p{color:var(--muted);font-size:1.06rem}
-    .grid{display:grid;gap:20px}.services-grid{grid-template-columns:repeat(3,1fr)}
+    .grid{display:grid;gap:20px}.grid>*{min-width:0}.services-grid{grid-template-columns:repeat(3,1fr)}
     .card{position:relative;background:rgba(255,255,255,.9);border:1px solid rgba(0,87,184,.10);border-radius:var(--radius);padding:20px;box-shadow:0 18px 50px rgba(0,87,184,.08);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}.card:hover{transform:translateY(-8px);box-shadow:0 30px 75px rgba(0,87,184,.14);border-color:rgba(0,183,232,.28)}
     .service-icon,.type-icon,.step-icon{width:56px;height:56px;border-radius:18px;background:linear-gradient(145deg,#fff,#ddf8ff);box-shadow:inset -8px -10px 16px rgba(0,87,184,.09),0 16px 30px rgba(0,183,232,.18);display:grid;place-items:center;margin-bottom:14px}
     .service-icon svg,.type-icon svg,.step-icon svg{width:28px;height:28px}
@@ -188,29 +199,42 @@
     .works{background:#fff}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;position:relative}.timeline:before{content:"";position:absolute;left:10%;right:10%;top:57px;height:3px;background:linear-gradient(90deg,var(--navy),var(--aqua),var(--green));border-radius:999px}.step{position:relative;text-align:center}.step-icon{margin:0 auto 20px;position:relative;z-index:2}.step-number{position:absolute;top:2px;right:calc(50% - 52px);width:28px;height:28px;border-radius:50%;background:var(--green);color:#fff;font-weight:950;display:grid;place-items:center;font-size:.8rem;z-index:3}
     .areas{background:linear-gradient(135deg,#071c3a 0%,#0057B8 72%,#00B7E8 100%);color:#fff}.areas h2,.areas .section-head p{color:#fff}.areas .tag{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.26);color:#fff}.area-layout{display:grid;grid-template-columns:1fr .82fr;gap:34px;align-items:center}.area-chips{display:flex;flex-wrap:wrap;gap:10px}.area-chips span{padding:10px 13px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-weight:850;font-size:.93rem}
     .map-card{position:relative;min-height:430px;border-radius:36px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);box-shadow:0 26px 70px rgba(0,0,0,.2);overflow:hidden}.map-card:before{content:"";position:absolute;inset:42px;border:2px dashed rgba(255,255,255,.3);border-radius:42% 58% 48% 52%;transform:rotate(-12deg)}.pin{position:absolute;width:18px;height:18px;background:var(--green);border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 0 0 9px rgba(76,175,80,.18),0 0 26px rgba(76,175,80,.7);animation:pinPulse 2.3s ease-in-out infinite;will-change:transform}.pin:after{content:"";position:absolute;width:7px;height:7px;background:#fff;border-radius:50%;left:5.5px;top:5.5px}.p1{left:20%;top:25%}.p2{left:62%;top:20%;animation-delay:.3s}.p3{left:70%;top:56%;animation-delay:.6s}.p4{left:34%;top:64%;animation-delay:.9s}.p5{left:48%;top:42%;animation-delay:1.2s}.map-label{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-weight:950;font-size:2rem;letter-spacing:-.05em;text-align:center}
-    .brands,.pricing{background:#fff}.brand-grid{grid-template-columns:repeat(4,1fr)}.brand-card{display:flex;align-items:center;gap:12px;text-align:left;padding:16px 18px}.brand-card .service-icon{margin-bottom:0;width:46px;height:46px;border-radius:14px;flex-shrink:0}.brand-card .service-icon svg{width:22px;height:22px}.brand-card strong{display:block;color:#0d2a52;font-size:1rem;font-weight:850}.disclaimer{margin-top:22px;padding:18px 20px;border-radius:20px;background:rgba(0,183,232,.10);border:1px solid rgba(0,183,232,.22);color:#36536e;font-weight:750}
+    .brands,.pricing{background:#fff}.brand-grid{grid-template-columns:repeat(4,1fr)}.brand-card{display:flex;align-items:center;gap:10px;text-align:left;padding:14px 14px;min-width:0;overflow:hidden}.brand-card .service-icon{margin-bottom:0;width:42px;height:42px;border-radius:13px;flex-shrink:0}.brand-card .service-icon svg{width:20px;height:20px}.brand-card strong{display:block;color:#0d2a52;font-size:.95rem;font-weight:850;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.disclaimer{margin-top:22px;padding:18px 20px;border-radius:20px;background:rgba(0,183,232,.10);border:1px solid rgba(0,183,232,.22);color:#36536e;font-weight:750}
     .price-grid{grid-template-columns:repeat(4,1fr)}.price-card ul{list-style:none;margin:16px 0 22px}.price-card li{padding:8px 0;color:#51677f;border-bottom:1px solid rgba(0,87,184,.08)}.price-card li:before{content:"✓";color:var(--green);font-weight:950;margin-right:8px}.price-tag{font-size:1.02rem;font-weight:900;color:var(--aqua);letter-spacing:-.01em;margin-top:2px}
     .testimonial-grid{grid-template-columns:repeat(2,1fr)}.quote{font-size:1.05rem;color:#415a75}.stars{color:#f6a800;font-size:1.1rem;margin-bottom:12px;letter-spacing:.04em}
     .faq{background:linear-gradient(180deg,#f5fbff,#fff)}.faq-wrap{max-width:940px;margin:auto}.faq-item{background:#fff;border:1px solid rgba(0,87,184,.10);border-radius:20px;margin-bottom:12px;box-shadow:0 12px 28px rgba(0,87,184,.06);overflow:hidden}.faq-question{width:100%;padding:19px 22px;background:transparent;border:0;text-align:left;display:flex;justify-content:space-between;gap:16px;font-weight:900;color:#0d2a52;cursor:pointer}.faq-question span:last-child{color:var(--aqua);font-size:1.3rem}.faq-answer{display:none;padding:0 22px 20px;color:#5d6f84}.faq-item.open .faq-answer{display:block}.faq-item.open .faq-question span:last-child{transform:rotate(45deg)}
 
     /* ---- Booking section (moved mid-page) ---- */
-    .booking-section{background:radial-gradient(circle at 85% 15%,rgba(0,183,232,.14),transparent 30%),linear-gradient(180deg,#f5fbff,#fff)}
-    .booking-wrap{max-width:880px;margin:0 auto;position:relative}
-    .booking-wrap:before{content:"";position:absolute;inset:-18px;background:linear-gradient(135deg,var(--navy),var(--aqua),var(--green));border-radius:40px;opacity:.16;filter:blur(18px);z-index:0}
-    .booking-card{position:relative;z-index:1;background:#fff;border-radius:34px;padding:38px;box-shadow:0 30px 80px rgba(0,87,184,.16);border:1px solid rgba(0,87,184,.08);color:var(--text)}
-    .booking-card h3{color:#0d2a52;font-size:1.7rem;margin-bottom:6px;letter-spacing:-.03em;text-align:center}
-    .booking-card .sub{color:var(--muted);font-size:.98rem;margin-bottom:26px;text-align:center}
-    .bform{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .booking-section{position:relative;background:radial-gradient(circle at 85% 15%,rgba(0,183,232,.16),transparent 32%),radial-gradient(circle at 10% 90%,rgba(76,175,80,.12),transparent 30%),linear-gradient(180deg,#f5fbff,#fff);overflow:hidden}
+    .booking-section:before,.booking-section:after{content:"";position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(0,183,232,.18),transparent 70%);z-index:0}
+    .booking-section:before{width:260px;height:260px;top:-60px;left:-60px}
+    .booking-section:after{width:220px;height:220px;bottom:-50px;right:-40px;background:radial-gradient(circle,rgba(76,175,80,.16),transparent 70%)}
+    .booking-wrap{max-width:900px;margin:0 auto;position:relative;z-index:1}
+    .booking-wrap:before{content:"";position:absolute;inset:-18px;background:linear-gradient(135deg,var(--navy),var(--aqua),var(--green),var(--navy));background-size:300% 100%;animation:btnGradient 8s ease infinite;border-radius:44px;opacity:.22;filter:blur(22px);z-index:0}
+    .booking-card{position:relative;z-index:1;background:#fff;border-radius:34px;padding:0;box-shadow:0 30px 80px rgba(0,87,184,.18);border:1px solid rgba(0,87,184,.08);color:var(--text);overflow:hidden}
+    .booking-banner{position:relative;padding:34px 38px 46px;background:linear-gradient(120deg,var(--navy),var(--aqua),#0a6fd6,var(--navy));background-size:280% 100%;animation:btnGradient 9s ease infinite;color:#fff;text-align:center;overflow:hidden}
+    .booking-banner:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,rgba(255,255,255,.22),transparent);transform:translateX(-130%);animation:btnSheen 4s ease-in-out infinite}
+    .booking-banner .badge{position:relative;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.34);padding:7px 14px;border-radius:999px;font-weight:900;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+    .booking-banner .badge svg{width:15px;height:15px}
+    .booking-banner h3{position:relative;color:#fff;font-size:1.8rem;letter-spacing:-.03em;margin-bottom:8px}
+    .booking-banner .sub{position:relative;color:rgba(255,255,255,.92);font-size:.98rem;max-width:520px;margin:0 auto}
+    .booking-form-wrap{padding:34px 38px 38px;margin-top:-24px;position:relative;z-index:2}
+    .bform{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;background:#fff;border-radius:26px;padding:8px;box-shadow:0 20px 50px rgba(0,87,184,.1)}
     .bform .full{grid-column:1/-1}
-    .bfield{display:flex;flex-direction:column;gap:7px;min-width:0}
-    .bfield label{font-size:.8rem;font-weight:900;color:#25405f;text-transform:uppercase;letter-spacing:.05em}
+    .bfield{display:flex;flex-direction:column;gap:7px;min-width:0;position:relative}
+    .bfield label{font-size:.78rem;font-weight:900;color:#25405f;text-transform:uppercase;letter-spacing:.05em}
     .bfield label .req{color:#e0473c;margin-left:3px}
-    .bform input,.bform select{width:100%;min-width:0;border:1.5px solid rgba(0,87,184,.16);background:#f6fbff;color:#183456;border-radius:14px;padding:13px 15px;outline:none;transition:border-color .2s,box-shadow .2s}
-    .bform input:focus,.bform select:focus{border-color:var(--aqua);box-shadow:0 0 0 4px rgba(0,183,232,.14)}
+    .bfield .input-wrap{position:relative;display:flex;align-items:center}
+    .bfield .input-wrap svg{position:absolute;left:14px;width:18px;height:18px;pointer-events:none;z-index:2}
+    .bform input,.bform select{width:100%;min-width:0;border:1.5px solid rgba(0,87,184,.16);background:#f6fbff;color:#183456;border-radius:14px;padding:13px 15px 13px 42px;outline:none;transition:border-color .2s,box-shadow .2s,background .2s}
+    .bform input:focus,.bform select:focus{border-color:var(--aqua);box-shadow:0 0 0 4px rgba(0,183,232,.14);background:#fff}
     .bform .other-field{display:none;margin-top:8px}
     .bform .other-field.show{display:block}
+    .bform .other-field input{padding-left:15px}
     .bsubmit{margin-top:8px}
-    .bsubmit button{width:100%;font-size:1.02rem;position:relative;background:linear-gradient(120deg,var(--green),#22c55e,var(--aqua),var(--green));background-size:300% 100%;animation:btnGradient 5s ease infinite}
+    .bsubmit button{width:100%;font-size:1.05rem;padding:16px 20px;position:relative;background:linear-gradient(120deg,var(--green),#22c55e,var(--aqua),var(--green));background-size:300% 100%;animation:btnGradient 5s ease infinite;box-shadow:0 18px 40px rgba(76,175,80,.32)}
+    .bsubmit button:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,rgba(255,255,255,.5),transparent);transform:translateX(-130%);animation:btnSheen 3s ease-in-out infinite}
+    .bsubmit button span{position:relative;z-index:2}
     .bsubmit button[disabled]{opacity:.7;cursor:not-allowed;transform:none !important}
 
     /* success overlay modal */
@@ -256,18 +280,18 @@
     .mobile-bottom .btn-primary{background:linear-gradient(120deg,var(--green),#22c55e,var(--aqua),var(--green));background-size:300% 100%;animation:btnGradient 4s ease infinite}
     .mobile-bottom .btn-primary:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,rgba(255,255,255,.5),transparent);transform:translateX(-120%);animation:btnSheen 2.4s ease-in-out infinite}
 
-    .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}.reveal.visible{opacity:1;transform:none}
+    .reveal{opacity:1;transform:none}
 
     @keyframes floatPhone{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
     @keyframes pulse{0%,100%{transform:scale(.95);opacity:.85}50%{transform:scale(1.08);opacity:1}}
     @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
     @keyframes wrench{0%,100%{transform:rotate(-8deg) translateY(0)}50%{transform:rotate(8deg) translateY(-14px)}}
     @keyframes floatCard{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-16px) rotate(2deg)}}
-    @keyframes pinPulse{0%,100%{filter:brightness(1);transform:rotate(-45deg) scale(1)}50%{filter:brightness(1.2);transform:rotate(-45deg) scale(1.15)}}
+    @keyframes pinPulse{0%,100%{transform:rotate(-45deg) scale(1)}50%{transform:rotate(-45deg) scale(1.15)}}
 
     @media (min-width:1500px){.side-nav{left:calc((100vw - 1420px)/2)}}
     @media (max-width:1380px){.side-nav{display:none}.container{width:min(1180px,calc(100% - 32px))}}
-    @media (max-width:1024px){.hero-grid,.why-grid{grid-template-columns:1fr}.phone-scene{min-height:560px}.phone{width:min(330px,78vw);min-height:600px}.phone-screen{min-height:562px}.services-grid,.type-grid,.brand-grid,.price-grid,.testimonial-grid{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.timeline:before{display:none}.desktop-actions{display:none}.header-book-btn span b{display:none}.menu-toggle{display:block}.side-nav{display:block;left:auto;right:18px;top:100px;width:min(330px,calc(100vw - 36px));transform:translateX(120%);opacity:0;pointer-events:none;transition:transform .3s,opacity .3s}.side-nav.open{transform:translateX(0);opacity:1;pointer-events:auto}.bform{grid-template-columns:1fr}.area-layout{grid-template-columns:1fr}}
+    @media (max-width:1024px){.hero-grid,.why-grid{grid-template-columns:1fr}.phone-scene{min-height:560px}.phone{width:min(330px,78vw);min-height:600px}.phone-screen{min-height:562px}.services-grid,.type-grid,.brand-grid,.price-grid,.testimonial-grid{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.timeline:before{display:none}.desktop-actions{display:none}.menu-toggle{display:block}.side-nav{display:block;left:auto;right:18px;top:100px;width:min(330px,calc(100vw - 36px));transform:translateX(120%);opacity:0;pointer-events:none;transition:transform .3s,opacity .3s}.side-nav.open{transform:translateX(0);opacity:1;pointer-events:auto}.bform{grid-template-columns:1fr}.area-layout{grid-template-columns:1fr}}
     @media (max-width:680px){
       html{scroll-padding-top:78px}
       body{padding-bottom:74px}
@@ -307,6 +331,12 @@
       .booking-card h3{font-size:1.35rem}
       .brand-card{padding:12px 14px}
     }
+    @media (max-width:400px){
+      .container{width:calc(100% - 24px)}
+      .brand-grid,.price-grid,.services-grid,.type-grid,.testimonial-grid{grid-template-columns:1fr}
+      .brand-card{gap:10px}
+      h1{font-size:2.1rem}
+    }
   </style>
 </head>
 <body>
@@ -320,8 +350,8 @@
         <div class="header-actions">
           <a class="header-book-btn" href="#booking" aria-label="Book water purifier service now">
             <span>
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2s6 8 6 12.5a6 6 0 0 1-12 0C6 10 12 2 12 2Z" stroke="#fff" stroke-width="1.8"/></svg>
-              <b>Book Now</b>
+              <span class="b-top">Book</span>
+              <span class="b-bottom">Now</span>
             </span>
           </a>
           <div class="desktop-actions">
@@ -388,7 +418,7 @@
                 <div class="app-card"><span class="field">Location</span><div class="field-value">Bangalore, Karnataka</div></div>
                 <div class="app-card"><span class="field">Technician Assigned</span><div class="field-value">Expert arriving soon <span class="status-chip">Live</span></div></div>
                 <div class="drop-3d" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" width="66" height="66"><path d="M24 4C24 4 8 24.5 8 33a16 16 0 0 0 32 0C40 24.5 24 4 24 4Z" fill="#00B7E8" stroke="#0057B8" stroke-width="2"/><ellipse cx="19" cy="30" rx="4" ry="6" fill="#fff" opacity=".55"/></svg>
+                  <svg viewBox="0 0 48 52" width="54" height="58"><path d="M24 3C24 3 7 24.2 7 33.2a17 17 0 0 0 34 0C41 24.2 24 3 24 3Z" fill="#00B7E8" stroke="#0057B8" stroke-width="2"/><ellipse cx="18.5" cy="30" rx="4" ry="6" fill="#fff" opacity=".55"/></svg>
                 </div>
                 <div class="icon-row" aria-hidden="true">
                   <div class="mini-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 5 11 5 15.5A7 7 0 0 0 19 15.5C19 11 12 2 12 2Z" stroke="#0057B8" stroke-width="1.6"/></svg></div>
@@ -460,58 +490,75 @@
         </div>
         <div class="booking-wrap reveal">
           <div class="booking-card">
-            <h3>Get a Free Service Callback</h3>
-            <p class="sub">Fields marked <span style="color:#e0473c;font-weight:900">*</span> are required.</p>
-            <form class="bform" id="bookingForm" aria-label="Water purifier service booking form">
-              <div class="bfield">
-                <label for="bf-name">Name<span class="req">*</span></label>
-                <input type="text" id="bf-name" name="name" placeholder="Your full name" required />
-              </div>
-              <div class="bfield">
-                <label for="bf-phone">Phone<span class="req">*</span></label>
-                <input type="tel" id="bf-phone" name="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" required />
-              </div>
-              <div class="bfield full">
-                <label for="bf-issue">Issue<span class="req">*</span></label>
-                <select id="bf-issue" name="issue" required>
-                  <option value="">Select the issue</option>
-                  <option>Low Water Flow</option>
-                  <option>Water Leakage</option>
-                  <option>Bad Taste / Bad Smell</option>
-                  <option>Filter Replacement</option>
-                  <option>RO Membrane Issue</option>
-                  <option>UV Lamp Not Working</option>
-                  <option>Purifier Not Turning On</option>
-                  <option>Installation Required</option>
-                  <option>AMC / Annual Maintenance</option>
-                  <option value="Other">Other</option>
-                </select>
-                <div class="other-field" id="issueOtherWrap">
-                  <input type="text" id="bf-issue-other" placeholder="Please describe the issue" />
+            <div class="booking-banner">
+              <span class="badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2s6 8 6 12.5a6 6 0 0 1-12 0C6 10 12 2 12 2Z" stroke="#fff" stroke-width="1.8"/></svg> Free Doorstep Callback</span>
+              <h3>Get a Free Service Callback</h3>
+              <p class="sub">Tell us a little about the issue — our technician will call you back to confirm the visit.</p>
+            </div>
+            <div class="booking-form-wrap">
+              <form class="bform" id="bookingForm" aria-label="Water purifier service booking form">
+                <div class="bfield">
+                  <label for="bf-name">Name<span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="#0057B8" stroke-width="1.6"/><path d="M5 20c1-3.6 3.8-5.5 7-5.5S18 16.4 19 20" stroke="#00B7E8" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    <input type="text" id="bf-name" name="name" placeholder="Your full name" required />
+                  </div>
                 </div>
-              </div>
-              <div class="bfield full">
-                <label for="bf-brand">Brand<span class="req">*</span></label>
-                <select id="bf-brand" name="brand" required>
-                  <option value="">Select purifier brand</option>
-                  <option>Kent</option>
-                  <option>Aquaguard</option>
-                  <option>Eureka Forbes</option>
-                  <option>Livpure</option>
-                  <option>Pureit</option>
-                  <option>AO Smith</option>
-                  <option>Blue Star</option>
-                  <option value="Other">Other</option>
-                </select>
-                <div class="other-field" id="brandOtherWrap">
-                  <input type="text" id="bf-brand-other" placeholder="Please mention the brand" />
+                <div class="bfield">
+                  <label for="bf-phone">Phone<span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M6.5 3.5h2.6l1.6 4-2 1.7c1 2.6 3.1 4.7 5.7 5.7l1.7-2 4 1.6v2.6a2 2 0 0 1-2.2 2A17 17 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2Z" stroke="#0057B8" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                    <input type="tel" id="bf-phone" name="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" required />
+                  </div>
                 </div>
-              </div>
-              <div class="bsubmit full">
-                <button class="btn btn-primary" type="submit" id="bookingSubmitBtn">Submit Service Request</button>
-              </div>
-            </form>
-            <div class="form-msg" id="formMsg"></div>
+                <div class="bfield full">
+                  <label for="bf-issue">Issue<span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M12 2s6 7 6 11.5a6 6 0 0 1-12 0C6 9 12 2 12 2Z" stroke="#0057B8" stroke-width="1.6"/><path d="M14.5 20.5c1.6-.4 2.6-1.7 2.6-3.4" stroke="#00B7E8" stroke-width="1.4" stroke-linecap="round"/></svg>
+                    <select id="bf-issue" name="issue" required>
+                      <option value="">Select the issue</option>
+                      <option>Low Water Flow</option>
+                      <option>Water Leakage</option>
+                      <option>Bad Taste / Bad Smell</option>
+                      <option>Filter Replacement</option>
+                      <option>RO Membrane Issue</option>
+                      <option>UV Lamp Not Working</option>
+                      <option>Purifier Not Turning On</option>
+                      <option>Installation Required</option>
+                      <option>AMC / Annual Maintenance</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="other-field" id="issueOtherWrap">
+                    <input type="text" id="bf-issue-other" placeholder="Please describe the issue" />
+                  </div>
+                </div>
+                <div class="bfield full">
+                  <label for="bf-brand">Brand<span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 5 11 5 15.5A7 7 0 0 0 19 15.5C19 11 12 2 12 2Z" stroke="#0057B8" stroke-width="1.6"/></svg>
+                    <select id="bf-brand" name="brand" required>
+                      <option value="">Select purifier brand</option>
+                      <option>Kent</option>
+                      <option>Aquaguard</option>
+                      <option>Eureka Forbes</option>
+                      <option>Livpure</option>
+                      <option>Pureit</option>
+                      <option>AO Smith</option>
+                      <option>Blue Star</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="other-field" id="brandOtherWrap">
+                    <input type="text" id="bf-brand-other" placeholder="Please mention the brand" />
+                  </div>
+                </div>
+                <div class="bsubmit full">
+                  <button class="btn btn-primary" type="submit" id="bookingSubmitBtn"><span>Submit Service Request →</span></button>
+                </div>
+              </form>
+              <div class="form-msg" id="formMsg"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -626,6 +673,19 @@
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.5 7-11.5a7 7 0 0 0-14 0C5 14.5 12 21 12 21Z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.4" stroke="#fff" stroke-width="1.6"/></svg></div>
             <div class="contact-detail"><b>Location</b><span>Bangalore, Karnataka</span></div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="seo-info" class="faq" aria-label="Additional service information">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">About Our Service</span>
+          <h2>Trusted Water Purifier Repair &amp; Service Provider in Bangalore</h2>
+        </div>
+        <div style="max-width:900px;margin:0 auto;color:#51677f;font-size:.96rem;line-height:1.8">
+          <p style="margin-bottom:14px">Water Purifier Repair Experts is a dedicated <strong>water purifier repair Bangalore</strong> service provider offering doorstep <strong>RO service Bangalore</strong>, <strong>UV water purifier repair Bangalore</strong> and <strong>UF water purifier service Bangalore</strong> for homes, apartments, offices, PGs, shops, clinics and restaurants. Whether you're searching for a <strong>water purifier technician Bangalore</strong> for a sudden breakdown or a <strong>water purifier service near me</strong> for routine maintenance, our trained technicians handle <strong>RO filter replacement Bangalore</strong>, <strong>RO membrane replacement Bangalore</strong> and full <strong>water purifier AMC Bangalore</strong> plans.</p>
+          <p>We proudly serve Whitefield, Marathahalli, Electronic City, HSR Layout, Koramangala, Indiranagar, Jayanagar, JP Nagar, BTM Layout, Hebbal, Yelahanka, Bellandur, Sarjapur Road, Banashankari and other areas across Bangalore with same-day <strong>water purifier installation Bangalore</strong>, filter and membrane replacement, leakage repair and TDS adjustment support.</p>
         </div>
       </div>
     </section>
@@ -790,11 +850,6 @@
         btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
     });
-
-    const revealObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); }});
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
     const statObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
