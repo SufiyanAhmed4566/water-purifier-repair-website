@@ -158,7 +158,28 @@
     .header-actions{display:flex;align-items:center;gap:14px}
     .desktop-actions{display:flex;align-items:center;gap:10px}
 
-    .header-book-btn{position:relative;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:0;padding:9px 22px;border-radius:20px;font-weight:900;color:#fff;letter-spacing:.01em;background:linear-gradient(120deg,var(--navy),var(--aqua),var(--green),var(--navy));background-size:300% 100%;box-shadow:0 12px 30px rgba(0,183,232,.35);overflow:hidden;isolation:isolate;transition:transform .25s ease;line-height:1.15;text-align:center}
+    .header-book-btn{
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 9px 34px;   /* increase left/right padding */
+  min-width: 100px;    /* gives the button a wider shape */
+  border-radius: 20px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: .01em;
+  background: linear-gradient(120deg,var(--navy),var(--aqua),var(--green),var(--navy));
+  background-size: 300% 100%;
+  box-shadow: 0 12px 30px rgba(0,183,232,.35);
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform .25s ease;
+  line-height: 1.15;
+  text-align: center;
+}
     .header-book-btn:hover{transform:translateY(-2px) scale(1.04)}
     .header-book-btn:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,rgba(255,255,255,.55),transparent);transform:translateX(-120%);animation:btnSheen 2.6s ease-in-out infinite;z-index:1}
     .header-book-btn span{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center}
@@ -296,7 +317,7 @@
       html{scroll-padding-top:78px}
       body{padding-bottom:74px}
       .topbar-inner{height:72px}
-      .brand img.logo-title{height:48px}
+      .brand img.logo-title{height: 55px;width: 280px }
       .header-book-btn{padding:11px 16px;font-size:.85rem}
       .hero{padding:118px 0 64px}
       .hero-grid{gap:24px}
@@ -345,7 +366,7 @@
     <header class="topbar" aria-label="Main header">
       <div class="container topbar-inner">
         <a href="#home" class="brand" aria-label="Water Purifier Repair Experts home">
-          <img class="logo-title" src="images/Logo_title.png" alt="Water Purifier Repair Experts logo" width="300" height="84" />
+          <img class="logo-title" src="images/Logo_title.png" alt="Water Purifier Repair Experts logo" width="200" height="150" />
         </a>
         <div class="header-actions">
           <a class="header-book-btn" href="#booking" aria-label="Book water purifier service now">
