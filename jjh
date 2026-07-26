@@ -1,0 +1,49 @@
+Okay. So from the above code, first understand the code, what I have written and what it is about. So, based on the file structure which I have given to you, I want you make certain changes to it. The first task is in the header. So, in the header, you need to insert a image which is Which is known as logo title, and the dimensions are width, width. Okay, in the header, first will come the logo image, then there will be a submit button, and then there will be a menu button. So the logo image is transparent. Only the logo and width title is availableLogo title width px 823 
+
+Height px 918 
+
+Position x 213 
+
+Position y 143 
+
+Logo 
+
+Width px 1974
+
+Height 562
+
+Position x 102 
+
+Position y 90 . So adjust it according to that, for mobile as well as for desktop screen. Coming to the second task, the existing code have lot of stuck problems. Whenever I try to scroll up and down, it's getting stuck. So also take care of that. And the third problem is in the mobile screen, on the right side of the screen, there is some empty space or margin or padding left in the whole page. So content is, on the contents of the right side, there is a blank line in the whole page, margin or padding, and it is empty. It is of one, 0.3 cm something, and it will blank. So also take care of that.Okay, so the next task is, you need to make the SEO section more good. You need to add side images which appear in the Google search below the title and the left side of the description. I will give you five images. You need to add all those in the head section, the side images. So it should look very good in the search results. That is the third task. The fourth task is, whatever blocks you are using, like the cards on the page, that should be in one line, two cards I should get. Currently, in mobile interface, I am getting one card, and the next card is after that. So what I want is, in one line, I need two cards in mobile with the same content. The fifth task is, the images, the symbols which you have used inside the cards to display, that is looking like very much AI generated. It's not looking based on the theme. The symbols which you have used inside the cards, it's just looking like the website is created using AI. I don't want that. I need premium, customized symbols for my website. So also handle that. Okay, so the next one is, you need to create a form. Like within the same page, you need to create a booking form, like with the name, with the phone number, and the issue, what issue it is going on, and the brand, which type of brand it is, and submit button. And it should be really, really, really good. It should be based on the theme. And after clicking on the submit, a success form, success message should appear. Okay? include this phone number in the webiste ater purifier number 9591895588 even for whatnsapp same and 
+
+Create the form for a Water Purifier service website. 
+
+ 
+
+The form must have exactly these 4 fields: 
+
+ 
+
+* name 
+
+* phone 
+
+* issue 
+
+* brand 
+
+ this app script link https://script.google.com/macros/s/AKfycbxKq6xzVmYvz9w5ARD77PCN64DB0UA2LYxk2UBXVapwjwVTjlYhHsNgxKLDA1l1_yM-/exec
+
+Important: 
+
+ 
+
+* Do not use any other field names.  
+
+* Make the form clean, modern, and suitable for a Water Purifier service business. 
+
+* The field names in the form must match the Apps Script exactly so the data can be sent correctly. 
+
+ 
+
+  and put the issues top which can be there and for brand mention the top brand and also mention others options in the both field okay and this is structure of the webiste 📦water-purifier-repair-website  ┣ 📂images  ┃ ┣ 📂sideimages  ┃ ┃ ┣ 📜sideimages (1).png  ┃ ┃ ┣ 📜sideimages (2).png  ┃ ┃ ┣ 📜sideimages (3).png  ┃ ┃ ┗ 📜sideimages (4).png  ┃ ┣ 📜logo.png  ┃ ┗ 📜Logo_title.png  ┣ 📜index.html  ┣ 📜jjh (ignore this file )  ┗ 📜README.md and everthing do it perfectly okay 
